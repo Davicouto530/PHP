@@ -18,6 +18,10 @@
 
         // boolean
         $fumante = true; // (true = 1) (flase = vazio)
+
+        // ----- Alterando valores da variável -----
+
+        $idade = '30'; // Pode atribuir um outro tipo na variável. "idade" inicialmente é tipo "int", e agora estou atribuindo um tipo "string" na variável "idade"  
     ?>
 
     <h1>Ficha cadastral</h1>
