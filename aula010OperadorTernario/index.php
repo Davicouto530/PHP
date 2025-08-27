@@ -39,10 +39,9 @@
             )
         );
 
-
         $valor_frete = $valor_frete_aux;
 
-    ?>
+    ?> 
 
     <h1>Detalhes do pedido</h1>
 
@@ -60,7 +59,7 @@
     <p>Recebeu desconto no frete?
         <?php 
 
-            // Verifica a variável, se for "true" exibe "SIM", se for "false", exibe "NÃO" e coloca dentro da variável "teste"
+            // Verifica a variável, se for "true" exibe "SIM", se for "false", exibe "NÃO" e coloca dentro da variável "teste" o resultado
             // <condição> ? true : false
             $teste = $recebeu_desconto_frete ? 'SIM' : 'NÃO';
 
