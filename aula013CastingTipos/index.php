@@ -16,7 +16,7 @@
         // Variável que será convertida, pode ser qualquer tipo
         $valor = true;
 
-        // Convertendo a variável "$valor", e colocando dentro da variável "$valor2". No lugar de "float" também pode ser usado o "double", no "int" pode ser usado o "integer" e no "boolean" pode ser usado o "bool", que da no mesmo os dois de cada um.
+        // Convertendo a variável "$valor" e colocando dentro da variável "$valor2". No lugar de "float" também pode ser usado o "double", no "int" pode ser usado o "integer" e no "boolean" pode ser usado o "bool", que da no mesmo os dois de cada um.
         // Pode converter para "string", "float", "int" e "bool"
 
         // Convertendo um inteiro para float
