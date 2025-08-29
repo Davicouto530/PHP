@@ -41,14 +41,14 @@
         echo "$texto <br/>";
         echo str_replace('.', ',', '22.20'); // Substituindo o ponto pela virgula
         echo str_replace('PHP', 'Javascript', $texto); 
-        // Primeiro passa a palavra/frase que será substituida, depois vem a nova palavra/frase e o terceiro é aonde está
+        // Primeiro passa a palavra/frase que será substituida, depois vem a nova palavra/frase e o terceiro é aonde que vai ser
 
         echo '<hr/>';
 
         // substr($texto, <posicao inicial>, <qtde caracteres>) -> Retorna parte de uma string
         echo "$texto <br/>";
         echo substr($texto, 1, 4); 
-        // Vai recuperar a partir da posição 1, 4 caracteres
+        // A partir da posição 1, vai recuperar 4 caracteres
         // 0,1,2,3,4... -> Começa pelo "0"
     ?>
 </body>
