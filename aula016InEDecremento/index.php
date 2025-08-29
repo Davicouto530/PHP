@@ -54,6 +54,10 @@
         // Fazendo o pré-decremento de uma unidade na variável "a", mas esse decremento já vai aparecer por que foi feito antes de exibir a mensagem.
         echo 'O valor contido em a após o pré-decremento é: ' . --$a . ' <br/>';
 
+        $b = 3;
+        $b++;
+
+        echo $b;
     ?>
 </body>
 </html>
