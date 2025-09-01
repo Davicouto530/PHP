@@ -32,6 +32,7 @@
             3 => 'Maria'
         ];
 
+        // Exibindo o array já formatado com a tag "pre" do html   
         echo '<pre>';
             print_r($lista_coisas);
         echo '</pre>';
