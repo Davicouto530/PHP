@@ -1,3 +1,3 @@
 # PHP
 
-Curso de PHO.
+Curso de PHP.
