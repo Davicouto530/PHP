@@ -18,12 +18,12 @@
 
         // esse método vai servir para modificar o número de filhos dos funcionários, recebendo como parametro o atributo "numFilhos" que está vindo o valor da chamada lá debaixo
         function modificarNumFilhos($numFilhos) {
-            // afetar um atributo do obj
+            // modfificando o número do atributo
             $this->numFilhos = $numFilhos;
         }
     }
 
-    // instanciando o obj
+    // instanciando o obj na variável "y"
     $y = new Funcionario();
 
     // para acessar atributos ou métodos do obj, usa o "->" e a variável "y"
