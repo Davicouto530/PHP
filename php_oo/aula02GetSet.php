@@ -10,7 +10,7 @@
 
         // get e set
 
-        // método set recebe um parametro e atribuir esse valor ao atributo nome do obj
+        // método set vai servir para receber um parametro e atribuir esse valor ao atributo do obj
         function setNome($nome){
             $this->nome = $nome;
             // atribuindo o parametro
@@ -26,7 +26,7 @@
             // atribuindo o parametro
         }
 
-        // método get retorna o que está dentro quando for chamado
+        // método get vai sevir para retornar o que está dentro quando for chamado
         function getNome(){
             return $this->nome;
             // quando for chamado, vai retornar o nome que está no atributo
