@@ -27,8 +27,8 @@
 
         // esse método vai servir para resumir o cadastro dos funcionário
         function resumirCadFunc() {
-            // quando o método for chamado, vai exibir dinamicamente os atributos
-            return "$this->nome <br> $this->telefone <br> possui $this->numFilhos filho(s)";
+            // quando o método for chamado, vai exibir dinamicamente os atributos via o método do get
+            return $this->__get('nome') . " possui " . $this->__get('numFilhos') . " filho(s)";
         }
 
         // esse método vai servir para modificar o número de filhos dos funcionários, recebendo como parametro o atributo "numFilhos" que está vindo o valor da chamada lá debaixo
@@ -51,7 +51,9 @@
     // passa como parametro no get o atributo que será retornado o valor
     echo $y->__get('nome') . ' é ' . $y->__get('cargo') . ' com um salario de ' . $y->__get('salario') . ' e possui ' . $y->__get('numFilhos') . ' filho(s)';
 
+    echo '<br>';
+
     // JEITO 2: exibindo os atributos do obj pelo método 
-    //echo $y->resumirCadFunc();
+    echo $y->resumirCadFunc();
 
 ?>
